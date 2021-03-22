@@ -1,21 +1,21 @@
 package io.zipcoder;
 
-public class Cat extends Pet {
-    public Cat(){}
+public class Dog extends Pet{
+    public Dog() {
+    }
 
-    public Cat(String name){
+    public Dog(String name) {
         super(name);
     }
 
     @Override
     public String speak() {
-        return "meow!";
+        return "bark!";
     }
-
     @Override
     public int compareTo(Pet o1) {
         return this.getName().compareTo(o1.getName());
-
     }
+
 
 }
